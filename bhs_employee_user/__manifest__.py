@@ -13,7 +13,7 @@
     'data': [
         'views/hr_views.xml',
     ],
-    'images': ['static/description/banner.gif'],
+    'images': ['static/description/banner.png'],
     'license': 'LGPL-3',
     'installable': True,
     'application': True
