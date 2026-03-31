@@ -1,6 +1,6 @@
 {
     'name': "Auto create user from employee",
-    'version': '1.0',
+    'version': '19.0.1.0',
     'description': """
        Automatically create a new user from a new employee 
     """,

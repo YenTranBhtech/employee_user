@@ -14,7 +14,6 @@ class CreateUserEmployee(models.Model):
             if self.env['res.users'].sudo().search([('login', '=', rec.work_email)]).id:
                 raise ValidationError(_('This email is already used by another user'))
             elif not rec.user_id:
-                # user_partner_id = rec.env['res.partner'].sudo().search([('email', '=', rec.work_email), ('is_company', '=', False)]).id
                 user_info = {'name': rec.name,
                              'login': rec.work_email,
                              'email': rec.work_email,
@@ -27,14 +26,6 @@ class CreateUserEmployee(models.Model):
 
 class HrApplicantInherit(models.Model):
     _inherit = 'hr.applicant'
-
-    # def create_employee_from_applicant(self):
-    #     res = super(HrApplicantInherit, self).create_employee_from_applicant()
-    #
-    #     res['context']['work_email'] = None
-    #     res['context']['work_contact_id'] = self.partner_id.id
-    #
-    #     return res
 
     def _get_employee_create_vals(self):
         self.ensure_one()
