@@ -1,5 +1,5 @@
 {
-    'name': "Auto create user from employee",
+    'name': "Employee-to-user Automation",
     'version': '19.0.1.0',
     'description': """
        Automatically create a new user from a new employee 
