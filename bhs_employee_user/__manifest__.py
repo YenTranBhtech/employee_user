@@ -1,5 +1,5 @@
 {
-    'name': "BH Auto Create User",
+    'name': "Employee-to-user Automation",
     'version': '16.0.1.0.0',
     'description': """
        Automatically create a new user from a new employee 
@@ -13,7 +13,7 @@
     'data': [
         'views/hr_views.xml',
     ],
-    'images': ['static/description/useremployee.jpg'],
+    'images': ['static/description/banner.png'],
     'license': 'AGPL-3',
     'installable': True,
     'application': True
