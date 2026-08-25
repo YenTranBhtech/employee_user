@@ -8,7 +8,7 @@
     <img src="/bhs_employee_user/static/description/icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Auto create user from employee</h3>
+  <h3 align="center">Employee-to-user Automation</h3>
 
   <p align="center">
     A product of Bac Ha Software that helps create user accounts after employee creation.

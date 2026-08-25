@@ -1,5 +1,5 @@
 {
-    'name': "Auto create user from employee",
+    'name': "Employee-to-user Automation",
     'version': '15.0.1.0.0',
     'description': """
        Automatically create a new user from a new employee 
@@ -13,7 +13,7 @@
     'data': [
          'views/applicant_employee_view.xml'
     ],
-    'images': ['static/description/banner.gif'],
+    'images': ['static/description/banner.png'],
     'license': 'AGPL-3',
     'installable': True,
     'application': True
